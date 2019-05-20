@@ -10,6 +10,9 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
+ 
+services :
+    -MySQL
 
 matrix:
   include:
@@ -23,7 +26,7 @@ matrix:
       install:
         - npm install
       script:
-- npm install angular-cli
-- npm install --save @angular/material @angular/cdk
-- npm install
-- npm run build
+    - npm install angular-cli
+    - npm install --save @angular/material @angular/cdk
+    - npm install
+    - npm run build
