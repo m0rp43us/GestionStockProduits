@@ -2,7 +2,7 @@
 
 This project contains two folders one for the client front end based resources and the other one is for the server (BackEnd)
 you can use Nodejs to install angular-cli using npm and later download and install what's needed for the node-module folder
-Good luck !
+
 
 ## Technologies used
 
