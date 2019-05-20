@@ -1,0 +1,29 @@
+sudo: required
+dist: trusty
+
+branches:
+  only: master
+
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+matrix:
+  include:
+    - language: java
+      jdk: oraclejdk8
+      script:
+        - ./mvnw test -B -q
+
+    - language: node_js
+      node_js: stable
+      install:
+        - npm install
+      script:
+- npm install angular-cli
+- npm install --save @angular/material @angular/cdk
+- npm install
+- npm run build
