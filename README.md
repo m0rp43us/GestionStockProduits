@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Welcome to Our project
 
-You can use the [editor on GitHub](https://github.com/wailchalabi/GestionStockProduits/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This project contains two folders one for the client front end based resources and the other one is for the server (BackEnd)
+you can use Nodejs to install angular-cli using npm and later download and install what's needed for the node-module folder
+Good luck !
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Technologies used
 
-### Markdown
+# Angularjs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. (This flexibility has led to the acronym MVW, which stands for "model-view-whatever" and may also encompass model–view–presenter and model–view–adapter.) In 2014, the original AngularJS team began working on the Angular web framework. 
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+# Springboot
 
-- Bulleted
-- List
+The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE (Enterprise Edition) platform.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wailchalabi/GestionStockProduits/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Fonctionalities
+- Login (as admin or user)
+- Create,Remove or Update a product and its specifications
+- Take a look at statistics
+- Add or Delete Users
+- Import a product files
+- View the Dashboard
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with our project? Check out our [documentation]() or [contact support](https://github.com/wailchalabi/) and we’ll help you sort it out.
