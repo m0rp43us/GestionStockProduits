@@ -9,11 +9,11 @@ matrix:
         - ./mvnw test -B -q
 
     - language: node_js
-      node_js: stable
+      node_js: 8.10
       install:
+        - npm install angular-cli
+        - npm install --save @angular/material @angular/cdk
         - npm install
       script:
-    - npm install angular-cli
-    - npm install --save @angular/material @angular/cdk
     - npm install
     - npm run build
