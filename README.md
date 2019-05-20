@@ -2,13 +2,13 @@
 
 This project contains two folders one for the client front end based resources and the other one is for the server (BackEnd)
 you can use Nodejs to install angular-cli using npm and later download and install what's needed for the node-module folder
-
+Good luck !
 
 ## Technologies used
 
 ## Angular
 
-AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. (This flexibility has led to the acronym MVW, which stands for "model-view-whatever" and may also encompass model–view–presenter and model–view–adapter.) In 2014, the original AngularJS team began working on the Angular web framework. 
+Angular is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS. Angular does not have a concept of "scope" or controllers, instead it uses a hierarchy of components as its primary architectural characteristic. Angular has a different expression syntax, focusing on "[ ]" for property binding, and "( )" for event binding. And it's caracterized by its modularity, which means much core functionality has moved to modules.
 
 
 ## Springboot
